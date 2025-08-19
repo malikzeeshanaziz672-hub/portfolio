@@ -1,0 +1,41 @@
+.contactContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    text-align: center;
+}
+.contactContainer img{
+    
+    height: 400px;
+    width: 400px;
+}
+
+.linkedinIcon{
+    color: purple;
+      font-size: 40px;
+}
+.emailIcon{
+      font-size: 40px;
+    color: green;
+}
+.cityIcon{
+      font-size: 40px;
+    color: yellowgreen;
+}
+.phoneIcon{
+    color: green;
+    font-size: 40px;
+}
+.contactContext ul li a{
+    color: purple;
+    list-style-type: none;
+       display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.contactContext ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
+

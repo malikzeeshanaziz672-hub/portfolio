@@ -1,0 +1,63 @@
+.skillsContainer{
+    height: 300px;
+/* margin-top: 30px; */
+background-color: wheat;
+
+}
+
+.skillH1 h1{
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   
+}
+.skillcontent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+}
+.skills{
+
+    height: 100px;
+    width: 150px;
+    background-color: coral;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+     transition: 0.5s;
+     cursor: pointer;
+
+
+}
+.skills:hover{
+    height: 150px;
+    width: 200px;
+    transition: 0.5s;
+
+}
+.htmlIcon{
+ background-color: red;
+ font-size: 20px;
+ margin-bottom: 10px;
+}
+.cssIcon{
+    background-color: blueviolet;
+    font-size: 20px;
+     margin-bottom: 10px;
+}
+
+.jsIcon{
+    font-size: 20px;
+    background-color: #ffff009e;
+     margin-bottom: 10px;
+}
+.reactIcon{
+    color: aqua;
+    font-size: 20px;
+}

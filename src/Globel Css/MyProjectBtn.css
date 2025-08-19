@@ -1,0 +1,15 @@
+.myProjectBtn button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+     transition: 0.5s;
+      cursor: pointer;
+
+}
+.myProjectBtn button:hover{
+    transition: 0.5s;
+ background-color: gray;
+   color: black;
+}
