@@ -1,0 +1,76 @@
+.ToDoh1{
+    color:  rgb(209, 159, 67);
+    display: flex;
+    margin-top: 30px;
+      justify-content: center;
+ 
+}
+.toDoInput{
+    display: flex;
+}
+.toDoContainer{
+    background-color: rgb(209, 159, 67);
+    color: white;
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+.toDoContainer input{
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+.toDoContainer input:focus{
+    outline: none;
+}
+.toDoContainer button{
+    padding: 9px 20px;
+    background-color: plum;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+       border-top-right-radius: 0px;
+        transition: 0.5s;
+}
+.toDoContainer button:hover{
+ border-radius: 15px;
+ color: antiquewhite;
+ transition: 0.5s;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.deleteIcon{
+    cursor: pointer;
+     transition: 0.5s;
+}
+.deleteIcon:hover{
+    color: red;
+     transition: 0.5s;
+}
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveUp 0.5s linear forwards;
+}
+@keyframes moveUp{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,46 @@
+.heroSectionContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    overflow: visible;
+}
+.MyPicHero img{
+  
+    /* height: 100%; */
+    height: 500px;
+    /* object-fit: cover;  */
+}
+.heroContent{
+    max-width: 500px;
+    
+}
+.heroContent h1{
+    color: rgb(209, 159, 67);
+    animation-delay: 1.5s;
+}
+.heroContent p{
+    padding: 50px 0px;
+    animation-delay: 1s;
+}
+.heroContent p span{
+  color: rgb(209, 159, 67);
+}
+
+.heroImg{
+    animation-delay: 1.5s;
+}
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+

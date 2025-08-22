@@ -1,0 +1,37 @@
+.Skill{
+    margin: 90px;
+}
+.skillList{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+animation:  moveup 0.5s linear forwards;
+    /* transition: 0.5s; */
+
+}
+@keyframes moveup{
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.html{
+    animation-delay: 0.5s;
+}
+.css{
+    animation-delay: 1s;
+}
+.js{
+    animation-delay: 1.5s;
+}
+.react{
+    animation-delay: 2s;
+}
+.tailwind{
+    animation-delay: 2.5s;
+}

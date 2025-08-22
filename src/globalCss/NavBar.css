@@ -1,0 +1,34 @@
+.logo h3{
+background:   rgb(209, 159, 67);
+padding: 10px;
+border-radius: 50%;
+color: white;
+}
+.logo p{
+    color:  rgb(209, 159, 67);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: whitesmoke;   
+
+}
+.navLink ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.navLink ul li a:hover{
+    color: rgb(209, 159, 67);
+}
+.navLink ul li{
+    list-style-type: none;
+
+}
+.active{
+    color:rgb(209, 159, 67) ;
+    border-bottom: 2px solid rgb(209, 159, 67)  ;
+}

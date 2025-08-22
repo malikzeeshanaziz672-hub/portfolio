@@ -1,0 +1,75 @@
+.contactImg img{
+    margin-top: 20px;
+    height: 450px;
+    width: 600px;
+}
+.contactContainer{
+    display: flex;
+    align-items: center;
+ 
+}
+.contactMe{
+  margin: 0 auto;
+}
+.contactMe h1{
+    color: rgb(209, 159, 67);
+    animation-delay: 2.5s;
+}
+.contactMe h3{
+    color: rgb(209, 159, 67);
+    margin: 20px 0px;
+    animation-delay: 2s;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactMe button{
+    background-color: rgb(209, 159, 67);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    margin-top: 20px;
+    transition: 0.5;
+}
+.contactMe button:hover{
+    
+     border-radius: 30px;
+     cursor: pointer;
+     color: rgb(185, 214, 239);
+     transition: 0.5;
+          
+}
+.contactForm input{
+    padding: 5px 8px;
+    border: none;
+    border-bottom: 2px solid rgb(209, 159, 67);
+    animation-delay: 1.5s;
+}
+.contactForm input:focus{
+    outline: none;
+}
+.contactForm textarea{
+    border: 2px solid rgb(209, 159, 67);
+    resize: none;
+    margin-top: 15px;
+    animation-delay: 1s;
+}
+.contactForm textarea:focus{
+  outline: none;
+}
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation:moveRight 0.8s linear forwards;
+}
+@keyframes moveRight{
+ 
+    100%{
+        opacity: 1;
+       transform: translateY(0px);
+    }
+}

@@ -1,0 +1,39 @@
+.skillCard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: rgb(209 ,159 ,67);
+    color:white;
+    padding: 40px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+
+
+.progress{
+    height: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 100%;
+    
+}
+.percent{
+    margin-top: 10px;
+}
+.skillLogo{
+    height: 40px;
+}
+
+.progressLine{
+    background-color: white;
+
+    height: 100%;
+}
+.language{
+    font-size: 25px;
+    font-weight: bold;
+}

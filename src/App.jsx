@@ -1,7 +1,10 @@
-import React from "react";
+import React, { Suspense } from "react";
+import Router from "./libs/Router";
 
 const App = () => {
-  return <div>App</div>;
+  return <Suspense fallback="...loading">
+    <Router/>
+  </Suspense>;
 };
 
 export default App;
